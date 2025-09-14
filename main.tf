@@ -3,9 +3,9 @@ module "service_accounts" {
   version       = "~> 4.0"
   project_id    = "gke-showroom"
   prefix        = "dev"
-  names         = ["awesome-sa"]
-  display_name  = "Awesome SA"
-  description   = "An awesome SA"
+  names         = ["cute-sa"]
+  display_name  = "Cute SA"
+  description   = "A cute SA"
   project_roles = [
     "roles/container.admin",
     "roles/compute.admin"
