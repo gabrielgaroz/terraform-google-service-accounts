@@ -7,7 +7,7 @@ module "service_accounts" {
   display_name  = "Cute SA"
   description   = "A cute SA"
   project_roles = [
-    "roles/container.admin",
-    "roles/compute.admin"
+    "gke-showroom=>roles/container.admin",
+    "gke-showroom=>roles/compute.admin"
   ]
 }
