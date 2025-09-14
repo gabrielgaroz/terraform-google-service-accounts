@@ -7,7 +7,7 @@ module "service_accounts" {
   display_name  = "Awesome SA"
   description   = "An awesome SA"
   project_roles = [
-    "roles/compute.imageUser",
-    "roles/compute.networkUser"
+    "roles/container.admin",
+    "roles/compute.admin"
   ]
 }
